@@ -72,11 +72,11 @@ class RPNStackerScanner:
     def scanner (self):
         print("Scanner")
         while (len(self.entry) >= 1):
-            print("Varredura")
+            #print("Varredura")
             # Varrer entrada até acabar o array entry
             firstEntry = self.entry.pop(0)
             if (firstEntry.isdigit()):
-                print("É dígito: " + firstEntry)
+                #print("É dígito: " + firstEntry)
                 self.stack.append(int (firstEntry))
 
                 # Cria token e adiciona no array
@@ -85,7 +85,7 @@ class RPNStackerScanner:
             
             elif (len(self.stack) >= 2):
                 # Operador colocado na pilha
-                print("É operador: " + firstEntry)
+                #print("É operador: " + firstEntry)
                 self.stack.append(firstEntry)
                 
                 # Operador e operandos retirados da pilha
@@ -120,7 +120,7 @@ class RPNStackerScanner:
                     else:
                         print("Erro! analysis fail")
                         return
-                    print("Resultado: ", resultado)
+                    #print("Resultado: ", resultado)
                     # Empilha o resultado
                     self.stack.append(resultado)
                 

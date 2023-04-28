@@ -56,7 +56,7 @@ class RPNStacker:
                     else:
                         print("Erro! analysis fail")
                         return
-                    print("Resultado: ", resultado)
+                    #print("Resultado: ", resultado)
                     # Empilha o resultado
                     self.stack.append(resultado)
                 
