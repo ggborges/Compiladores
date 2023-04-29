@@ -21,3 +21,6 @@ class Token:
     def toString (self):
         token = "Token: [type=" + str(self.type.name) + ", lexeme=" + str(self.lexeme) + "]"
         return token
+    
+    def getLexeme (self):
+        return self.lexeme
