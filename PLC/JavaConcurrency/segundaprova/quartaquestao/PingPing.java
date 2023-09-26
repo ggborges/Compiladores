@@ -6,12 +6,12 @@ import java.util.concurrent.BlockingQueue;
 
 public class PingPing {
     public static void main(String[] args) {
-        int numMessages = 10; // Número de mensagens a serem enviadas
+        //int numMessages = 10; // Número de mensagens a serem enviadas
 
         Scanner scan = new Scanner(System.in);
         
         System.out.println("Digite a quantidade de mensagens: (n)");
-        int n = scan.nextInt();
+        int n = scan.nextInt(); // numero de mensagens a serem enviadas
 
         BlockingQueue<String> queue = new ArrayBlockingQueue<>(n);
 
@@ -42,3 +42,9 @@ public class PingPing {
         receiver.start();
     }
 }
+
+/*
+ * muito mais simples de implementar do que a problematica ping pong
+ * usei blokingqueue para garantir que as mensagens seriam consumidas
+ * adicionei delay para efeito de visualização
+ */

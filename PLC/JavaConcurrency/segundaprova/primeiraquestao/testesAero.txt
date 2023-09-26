@@ -1,0 +1,58 @@
+Número de pistas: 3
+Aviões para decolagem (N):
+Avião 0 - Horário de decolagem: 1000 ms
+Avião 1 - Horário de decolagem: 2000 ms
+Avião 2 - Horário de decolagem: 3500 ms
+Avião 3 - Horário de decolagem: 4500 ms
+Avião 4 - Horário de decolagem: 5500 ms
+Aviões para aterrissagem (M):
+Avião 5 - Horário de aterrissagem: 1200 ms
+Avião 6 - Horário de aterrissagem: 2500 ms
+Avião 7 - Horário de aterrissagem: 3800 ms
+Avião 8 - Horário de aterrissagem: 4800 ms
+Avião 9 - Horário de aterrissagem: 5800 ms
+
+==================================================
+
+Número de pistas: 2
+Aviões para decolagem (N):
+Avião 0 - Horário de decolagem: 1000 ms
+Avião 1 - Horário de decolagem: 2000 ms
+Avião 2 - Horário de decolagem: 3000 ms
+Avião 3 - Horário de decolagem: 4000 ms
+Aviões para aterrissagem (M):
+Avião 4 - Horário de aterrissagem: 1100 ms
+Avião 5 - Horário de aterrissagem: 2100 ms
+Avião 6 - Horário de aterrissagem: 3100 ms
+Avião 7 - Horário de aterrissagem: 4100 ms
+
+=================================================
+
+Número de pistas: 2
+Aviões para decolagem (N):
+Avião 0 - Horário de decolagem: 1000 ms
+Avião 1 - Horário de decolagem: 1050 ms
+Avião 2 - Horário de decolagem: 1200 ms
+Avião 3 - Horário de decolagem: 1250 ms
+Avião 4 - Horário de decolagem: 1300 ms
+Aviões para aterrissagem (M):
+Avião 5 - Horário de aterrissagem: 1100 ms
+Avião 6 - Horário de aterrissagem: 1350 ms
+Avião 7 - Horário de aterrissagem: 1400 ms
+Avião 8 - Horário de aterrissagem: 1450 ms
+
+================================================
+
+Número de pistas: 2
+
+Horários de Decolagem (em milissegundos após o início do programa):
+
+Avião 0: 0 ms
+Avião 1: 500 ms (espera de 500 ms)
+Avião 2: 1000 ms (espera de 1000 ms)
+Avião 3: 2000 ms (espera de 2000 ms)
+Horários de Aterrissagem (em milissegundos após o início do programa):
+
+Avião 4: 3000 ms (espera de 3000 ms)
+Avião 5: 4000 ms (espera de 4000 ms)
+Avião 6: 2500 ms (espera de 2500 ms)
